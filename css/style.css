@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body{
+    margin:0;
+    padding:0;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    background-color: #ededed;
+}
+
+.nav_style {
+    background-color:#722872!important;
+}
+
+.logotyp {
+    font-size: 35px;
+    color: #fff;
+}
+.nav_style a {
+    color:#fff!important;
+    font-family:'Dancing Script', cursive; 
+    font-size: 30px;
+}
+
+.nav_style a:hover {
+    color: #888888 !important;
+}
+
+.language {
+    text-align: left;
+}
+
+.jumbotron-style .intro-text {
+    max-width: 675px;
+    text-align: center;
+    padding-bottom: 55px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-style {
+    background:	#808080;
+    color: #fff;
+    text-align: center;
+    padding: 180px 10% 50px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+}
+
+.jumbotron-style img {
+    height: 300px;
+    width: 300px;
+    border: 2px #722872 solid;
+    margin-top: 25px;
+}
+
+
+hr.star-bright, hr.star-dark {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-bright {
+    border-color:#fff;
+}
+
+hr.star-dark {
+    color:#722872;
+}
+
+hr.star-bright:after {
+    color:#fff;
+    background-color:#aaa;
+}
+
+h1 {
+    font-family:'Dancing Script', cursive;
+    font-weight: bolder; 
+}
+
+h2 {
+    color:black;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+
+h3 {
+    color: #808080 ;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 30px;
+    color:#722872;
+    font-family:'Dancing Script', cursive;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+i {
+    font-size: 75px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.experience {
+    padding-top: 100px;
+}
+
+.skills {
+    margin-top: 35px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.skills h4 {
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.technologies__item {
+    transition: .5s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 35px;
+    padding: 1rem 4rem;
+    position: relative;
+    z-index: 5; 
+}
+    
+.about {
+    padding: 10rem 0;
+}
+
+.about__technologies {
+    flex: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.skills i {
+    transition: .5s ease-out;
+}
+
+.skills i:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5); 
+}
+
+.project {
+    background-color:#ededed;
+    margin-bottom: 55px;
+    margin-top: 35px;
+    padding-top: 110px; 
+    padding-bottom: 55px; 
+}
+
+.card-zoom {
+    transition: .3s; 
+    margin-top: 30px;
+}
+
+.card-zoom:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5); 
+}
+
+.contact_me {
+    background-color:#808080;
+    color: #fff;
+    padding-bottom: 35px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact_me i {
+    font-size: 35px;
+    transition: .3s; 
+}
+
+.contact_me i:hover {
+    background-color: #fff;
+    transform: scale(1.5);
+}
+
+.contact_me p {
+    font-size: 28px;
+
+}
+
+.footer {
+    background-color: #722872 ;
+    color: #fff;
+    text-align: center;
+}
+
+h5 {
+    color:#722872;
+    font-family:'Dancing Script', cursive;
+    font-size: 25px; 
+}
