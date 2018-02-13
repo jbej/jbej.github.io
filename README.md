@@ -1,2 +1,2 @@
 # portfolio
-https://jbej.github.io/portfolio/.
+https://jbej.github.io/.
